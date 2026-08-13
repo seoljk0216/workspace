@@ -20,7 +20,7 @@ typedef struct Node {
 void print_student(Student *p, int n);
 
 int main(int argc, char const *argv[])
-{
+{  
     Student s = {1, "뽀로로", 100};
     Student *p = &s;
 
