@@ -1,0 +1,16 @@
+{
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "editor.tabSize": 4,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt", 
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": ["/K", "chcp 65001"],
+            "icon": "terminal-cmd"
+        },
+    },
+}
